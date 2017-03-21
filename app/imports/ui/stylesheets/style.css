@@ -1,3 +1,7 @@
-body {
-  padding-top: 61px;  /* Move body of page below navbar. */
+.ui.inverted.menu {
+  background-color: #00512f;
+}
+
+#login-buttons a, .accounts-dialog a {
+  color: #fff;
 }

@@ -8,24 +8,31 @@ FlowRouter.route('/', {
   },
 });
 
-FlowRouter.route('/list', {
-  name: 'List_Stuff_Page',
+FlowRouter.route('/login', {
+  name: 'Login_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'List_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Login_Page' });
   },
 });
 
-FlowRouter.route('/add', {
-  name: 'Add_Stuff_Page',
+FlowRouter.route('/user-home-page/:_id', {
+  name: 'User_Home_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Add_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'User_Home_Page' });
   },
 });
 
-FlowRouter.route('/stuff/:_id', {
-  name: 'Edit_Stuff_Page',
+FlowRouter.route('/browse-clubs', {
+  name: 'Browse_Clubs',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Edit_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Browse_Clubs' });
+  },
+});
+
+FlowRouter.route('/terms-and-conditions', {
+  name: 'Terms_And_Conditions',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Terms_And_Conditions' });
   },
 });
 
