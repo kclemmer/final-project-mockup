@@ -15,7 +15,8 @@ FlowRouter.route('/login', {
   },
 });
 
-FlowRouter.route('/user-home-page/:_id', {
+// use '/user-home-page/:_id' when using actual individuals pages
+FlowRouter.route('/user-home-page', {
   name: 'User_Home_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'User_Home_Page' });
@@ -26,6 +27,14 @@ FlowRouter.route('/browse-clubs', {
   name: 'Browse_Clubs',
   action() {
     BlazeLayout.render('App_Body', { main: 'Browse_Clubs' });
+  },
+});
+
+// use '/club-page/:_id' when using actual individuals pages
+FlowRouter.route('/club-page', {
+  name: 'Club_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Club_Page' });
   },
 });
 

@@ -15,4 +15,6 @@ import './user-home-page.html';
 
 import './terms-and-conditions.html';
 
-import  './browse-clubs.html';
+import './browse-clubs.html';
+
+import './club-page.html';

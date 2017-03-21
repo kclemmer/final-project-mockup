@@ -7,27 +7,43 @@
     <table class="ui selectable table">
       <thead>
       <tr>
-        <th>Name</th>
+        <th>Club</th>
         <th>Status</th>
         <th class="right aligned">Notes</th>
       </tr>
       </thead>
+
       <tbody>
       <tr>
-        <td>John</td>
-        <td>Approved</td>
+        <td><a href="{{ pathFor 'Club_Page' }}">French Club</a></td>
+        <td>Member</td>
         <td class="right aligned">None</td>
       </tr>
+
+      </tbody>
+    </table>
+
+    <p>Bookmarked</p>
+    <hr>
+
+    <table class="ui selectable table">
+      <thead>
       <tr>
-        <td>Jamie</td>
-        <td>Approved</td>
-        <td class="right aligned">Requires call</td>
+        <th>Club</th>
+        <th>Status</th>
+        <th class="right aligned">Notes</th>
+        <th class="right aligned">Bookmarked</th>
       </tr>
+      </thead>
+
+      <tbody>
       <tr>
-        <td>Jill</td>
-        <td>Denied</td>
+        <td><a href="{{ pathFor 'Club_Page' }}">Japanese Club</a></td>
+        <td>Member</td>
         <td class="right aligned">None</td>
+        <td class="right aligned"><a><i class="bookmark icon"></i></a></td>
       </tr>
+
       </tbody>
     </table>
 
