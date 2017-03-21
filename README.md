@@ -23,4 +23,4 @@ Club Page:
 
 Terms and Conditions Page:
 ![terms-and-conditions](https://github.com/kclemmer/final-project-mockup/blob/master/app/public/images/screenshots/terms-and-conditions-screenshot.png)
-
+-------------------------------------------------
