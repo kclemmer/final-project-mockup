@@ -2,7 +2,7 @@
 Final Project Mockup for ICS 314 At UH Manoa
 
 
-![landing-page]<img class="ui medium left floated image" src="../images/screenshots/landing-page-screenshot.jpg">
+![landing-page](https://github.com/kclemmer/final-project-mockup/blob/master/app/public/images/screenshots/browse-clubs-screenshot.png)
 
 ![browse-clubs]<img class="ui medium left floated image" src="../images/screenshots/browse-clubs-screenshot.jpg">
 
