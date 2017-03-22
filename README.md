@@ -22,7 +22,7 @@ Add Club Page:
 -------------------------------------------------
 
 Edit Club Page:
-![edit-club-page](https://github.com/kclemmer/final-project-mockup/blob/master/app/public/images/screenshots/add-club-page-screenshot.png)
+![edit-club-page](https://github.com/kclemmer/final-project-mockup/blob/master/app/public/images/screenshots/edit-club-page-screenshot.png)
 -------------------------------------------------
 
 Club Page:
