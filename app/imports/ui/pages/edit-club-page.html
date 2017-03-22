@@ -1,0 +1,72 @@
+<template name="Edit_Club_Page">
+
+  <div style="top-margin: 20px; border-radius: 0px" class="ui borderless inverted menu">
+    <div class="ui container">
+      <a class="item" href="{{pathFor 'Add_Club_Page'}}"><h4>Add Club</h4></a>
+      <a class="item" href="{{pathFor 'Edit_Club_Page'}}"><h4>Edit Club</h4></a>
+    </div>
+  </div>
+
+  <div class="ui container">
+    <h3>Edit Club</h3><br>
+  </div>
+
+  <div class="ui container">
+    <div class="ui form">
+      <div class="fields">
+
+        <div class="required field">
+          <label>Club Name</label>
+          <input type="text" placeholder="Club Name">
+        </div>
+
+        <div class="required field">
+          <label>Type</label>
+          <div class="ui form">
+            <div class="field">
+              <select>
+                <option value="">Type</option>
+                <option value="9">Academic/Professional</option>
+                <option value="8">Ethnic/Cultural</option>
+                <option value="7">Fraternity/Sorority</option>
+                <option value="6">Honorary Society</option>
+                <option value="5">Leisure/Recreational</option>
+                <option value="4">Political</option>
+                <option value="3">Religious/Spiritual</option>
+                <option value="2">Service</option>
+                <option value="1">Sports/Leisure</option>
+                <option value="0"> Student Affairs</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p><b>Contact Person</b></p>
+
+      <div class="fields">
+        <div class="field">
+          <label>First Name</label>
+          <input type="text" placeholder="First Name">
+        </div>
+
+        <div class="field">
+          <label>Last Name</label>
+          <input type="text" placeholder="Last Name">
+        </div>
+
+      </div>
+
+      <div class="fields">
+        <div class="field">
+          <label>Contact Email</label>
+          <input type="text" placeholder="Someone@hawaii.edu">
+        </div>
+      </div>
+
+      <button style="background-color: #00512f" class="ui primary button" type="submit">Submit</button>
+
+    </div>
+  </div>
+</template>
+

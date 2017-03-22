@@ -30,6 +30,20 @@ FlowRouter.route('/browse-clubs', {
   },
 });
 
+FlowRouter.route('/add-club-page', {
+  name: 'Add_Club_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Add_Club_Page' });
+  },
+});
+
+FlowRouter.route('/edit-club-page', {
+  name: 'Edit_Club_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Edit_Club_Page' });
+  },
+});
+
 // use '/club-page/:_id' when using actual individuals pages
 FlowRouter.route('/club-page', {
   name: 'Club_Page',

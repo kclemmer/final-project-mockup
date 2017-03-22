@@ -18,3 +18,8 @@ import './terms-and-conditions.html';
 import './browse-clubs.html';
 
 import './club-page.html';
+
+import './add-club-page.html';
+
+import './edit-club-page.html';
+
