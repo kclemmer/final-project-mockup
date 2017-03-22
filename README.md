@@ -17,6 +17,14 @@ Browse Clubs Page:
 ![browse-clubs](https://github.com/kclemmer/final-project-mockup/blob/master/app/public/images/screenshots/browse-clubs-screenshot.png)
 -------------------------------------------------
 
+Add Club Page:
+![add-club-page](https://github.com/kclemmer/final-project-mockup/blob/master/app/public/images/screenshots/add-club-page-screenshot.png)
+-------------------------------------------------
+
+Edit Club Page:
+![edit-club-page](https://github.com/kclemmer/final-project-mockup/blob/master/app/public/images/screenshots/edit-club-page-screenshot.png)
+-------------------------------------------------
+
 Club Page:
 ![club-page](https://github.com/kclemmer/final-project-mockup/blob/master/app/public/images/screenshots/club-page-screenshot.png)
 -------------------------------------------------
